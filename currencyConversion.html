@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Customer Discount</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Use JSP Declaration tag, JSP Scriplet and JSP Expression in application</h1>
+        <h2 style="color: #8A2BE2;">Currency Conversion</h2>
+        
+        <form name="currency" action="processCurrency.jsp" method="post">
+            <table>
+                <tr>
+                    <td><label>Amount (in RM)</label></td>
+                    <td><input type="text" name="amount" value="" placeholder="(in RM)" size="50"/></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><label>Convert to</label></td>
+                    <td><select name="currency">
+                            <option value="1" name="USD">USD</option>
+                            <option value="2" name="STG">STG</option>
+                            <option value="3" name="EURO">EURO</option>
+                        </select></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><br><input type="submit" id="btnSubmit" value="Submit"/> <input type="reset" id="btnCancel" value="Cancel"/></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </form>
+        <br>
+    </body>
+    <footer>&copy;Nur Hidayatul Ain binti Haluwi</footer>
+</html>
